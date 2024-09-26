@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="200dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="130px"
+            android:background="@color/grey2"
+            />
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:layout_anchorGravity="bottom|center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:popupTheme="@style/Theme.Fitricks.PopupOverlay" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Back"
+                android:textColor="@color/rwhite"
+                android:textSize="40dp" />
+        </androidx.appcompat.widget.Toolbar>
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:textSize="60px"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:text="1. Superman" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="278dp"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+
+            <VideoView
+                android:id="@+id/sprman"
+                android:layout_width="270dp"
+                android:layout_height="270dp"
+                android:layout_gravity="top|center_horizontal" />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/textVie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:textSize="50px"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:text="Begainer : 25 x 3 \nIntermediate : 40 x 3 \nAdvance : 60 x 4 " />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:textSize="60px"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:text="2. Bridge" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="278dp"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+
+            <VideoView
+                android:id="@+id/videoView6"
+                android:layout_width="277dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top|center_horizontal"
+
+                />
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:textSize="50px"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:text="Begainer : 30 x 3 \nIntermediate : 40 x 3 \nAdvance : 60 x 4 " />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:textSize="60px"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:text="3. Pull-Ups" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="278dp"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:id="@+id/pushups3"
+                android:layout_width="340dp"
+                android:layout_height="248dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pull" />
+
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:textSize="50px"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:text="Begainer : 5 x 3 \nIntermediate : 12 x 3 \nAdvance : 20 x 4 " />
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:layout_anchorGravity="bottom|center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:popupTheme="@style/Theme.Fitricks.PopupOverlay"
+            />
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:fontFamily="serif"
+            android:textSize="60px"
+            android:gravity="center"
+            android:text="Muscle Gain Diet Plan "
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="389dp"
+            android:layout_height="283dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/screenshot__145_" />
+        <ImageView
+            android:layout_width="389dp"
+            android:layout_height="283dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/screenshot__146_" />
+        <ImageView
+            android:layout_width="389dp"
+            android:layout_height="283dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/screenshot__147_" />
+        <ImageView
+            android:layout_width="389dp"
+            android:layout_height="283dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/screenshot__148_" />
+        <ImageView
+            android:layout_width="389dp"
+            android:layout_height="283dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/screenshot__149_" />
+        <ImageView
+            android:layout_width="389dp"
+            android:layout_height="283dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/screenshot__150_" />
+        <ImageView
+            android:layout_width="389dp"
+            android:layout_height="283dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/screenshot__151_" />
+
+
+    </LinearLayout>
+</ScrollView>

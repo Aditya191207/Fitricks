@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "930674140233",
+    "project_id": "fitricks-1d859",
+    "storage_bucket": "fitricks-1d859.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930674140233:android:670a29fa4403bfba558b98",
+        "android_client_info": {
+          "package_name": "com.example.fitricks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASqXG-C0AcEmMxl3Pi1JEZqhj2aDuOoNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

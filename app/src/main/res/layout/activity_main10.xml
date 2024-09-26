@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        app:layout_anchorGravity="bottom|center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:popupTheme="@style/Theme.Fitricks.PopupOverlay" >
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="center"
+          android:fontFamily="serif"
+          android:gravity="center"
+          android:text="Legs"
+          android:textColor="@color/rwhite"
+          android:textSize="40dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:textSize="60px"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:text="1. Squats" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:layout_gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+
+      <VideoView
+          android:id="@+id/squats"
+          android:layout_width="wrap_content"
+          android:layout_height="270dp"
+          android:layout_gravity="top|center_horizontal" />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/textVie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:textSize="50px"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:text="Begainer : 20 x 3 \nIntermediate : 30 x 3 \nAdvance : 70 x 4 " />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:textSize="60px"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:text="2. Lunges" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:layout_gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+
+      <VideoView
+          android:id="@+id/lunges"
+          android:layout_width="wrap_content"
+          android:layout_height="270dp"
+          android:layout_gravity="top|center_horizontal" />
+    </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:textSize="50px"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:text="Begainer : 20 x 3 \nIntermediate : 30 x 3 \nAdvance : 50 x 4 " />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        android:textSize="60px"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:text="3. Side Lunges" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:layout_gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+      <VideoView
+          android:id="@+id/sidelunges"
+          android:layout_width="wrap_content"
+          android:layout_height="270dp"
+          android:layout_gravity="top|center_horizontal" />
+
+    </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:textSize="50px"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:text="Begainer : 30 x 3 \nIntermediate : 40 x 3 \nAdvance : 60 x 4 " />
+
+
+
+
+
+
+  </LinearLayout>
+</ScrollView>

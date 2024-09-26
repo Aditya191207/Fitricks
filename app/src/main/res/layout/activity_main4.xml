@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:layout_anchorGravity="bottom|center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:popupTheme="@style/Theme.Fitricks.PopupOverlay"
+            />
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:fontFamily="serif"
+            android:textSize="60px"
+            android:gravity="center"
+            android:text="Weight Loss Diet Plan "
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:gravity="bottom"
+            android:paddingLeft="50px"
+            android:text="Day 1"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25px"
+            android:paddingLeft="50px"
+            android:text="On the first day, you should take as many fruits as possible.Ensure to drink around 8-12 glasses of water and avoid starving at any point in the day. Whenever you are hungry, grab yourself some fruit"
+            android:textColor="@color/black" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="384dp"
+            android:layout_height="158dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/screenshot__144_" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:gravity="bottom"
+            android:paddingLeft="50px"
+            android:text="Day 2"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25px"
+            android:paddingLeft="50px"
+            android:text="Your day 1 was on fruits; now it's time to eat vegetables. It is advisable not to include oil while cooking, as oil is high in calories. You can use olive oil or butter to enhance the taste if required"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="164dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/screenshot__138_" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:gravity="bottom"
+            android:paddingLeft="50px"
+            android:text="Day 3"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25px"
+            android:paddingLeft="50px"
+            android:text="On the third day, you must take both vegetables and fruits. You can keep the fruits and vegetables you ate in the first two days. However, it would help if you avoid bananas and potatoes."
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="384dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/screenshot__139_" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:gravity="bottom"
+            android:paddingLeft="50px"
+            android:text="Day 4"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25px"
+            android:paddingLeft="50px"
+            android:text="Bananas are packed with pectin, which helps in digestion. They also give you instant energy, keeping you going throughout the day. So, today, you can eat eight small bananas throughout the day.
+
+You can divide the consumption across your snacks and meal time. You can also drink one glass of milk for your breakfast, lunch, and dinner. You can also replace milk with a bowl of soup."
+            android:textColor="@color/black" />
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="384dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/screenshot__140_" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:gravity="bottom"
+            android:paddingLeft="50px"
+            android:text="Day 5"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25px"
+            android:paddingLeft="50px"
+            android:text="On this day, you can eat a bowl of brown rice. If you are vegetarian, you can take a bowl of brown rice for lunch, but ensure to use minimum oil while cooking. But, if you are non-vegetarian, you can opt for lean protein milk like fish or chicken breast or skinless chicken with six tomatoes."
+            android:textColor="@color/black"
+            />
+        <ImageView
+            android:layout_width="384dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/screenshot__141_" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:gravity="bottom"
+            android:paddingLeft="50px"
+            android:text="Day 6"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25px"
+            android:paddingLeft="50px"
+            android:text="The 6th day follows the same pattern as the previous day, adding uncooked or cooked vegetables. However, you must eat boiled or steamed vegetables, and your salad should be fairly dressed. A mix of vegetables will provide your body with the desired fibre. Also, avoid potatoes, fruits, and sweet potatoes today. Non-vegetarians can go with skinless 500g chicken along with vegetables except tomato."
+            android:textColor="@color/black"
+            />
+        <ImageView
+            android:layout_width="384dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/screenshot__142_" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:gravity="bottom"
+            android:paddingLeft="50px"
+            android:text="Day 7"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25px"
+            android:paddingLeft="50px"
+            android:text="You can eat brown rice with boiled vegetables for lunch on the last day. To hydrate your body, you can take sugarless fruit juice after each meal to complement your nutrient-rich vegetables. This way, you will get the desired energy with rice and vegetables, which will help your body to function properly, and the fruit juices will flush the toxins out of your body. Ensure to stay away from sweet potatoes and potatoes."
+            android:textColor="@color/black"
+            />
+        <ImageView
+            android:layout_width="384dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/screenshot__143_" />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
